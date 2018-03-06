@@ -6,7 +6,7 @@
     "ng": "ng",
     "start": "node main.js",
     "build": "ng build",
-    "test": "ng test",
+    "test": "ng test; node .github/setup.js",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ng build"
